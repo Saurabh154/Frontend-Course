@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre>
+C:\CoderArmy9> welcome.exe
+
+*** WELCOME TO CODER ARMY 9 ***
+Web Development Bootcamp - First 6 Lectures
+-------------------------------------------
+
+Choose your lecture:
+[1] <a href="Lecture.html">HTML Basics</a>
+[2] <a href="lecture2.html">Tags & Elements</a>
+[3] <a href="lecture3.html">Links & Images</a>
+[4] <a href="lecture4.html">Lists & Tables</a>
+[5] <a href="lecture5.html">Forms</a>
+[6] <a href="lecture6.html">Semantic HTML</a>
+
+After completing all → 
+<a href="certificate.html">Get Your Certificate</a>
+</pre>
+
+
+<!-- index.html, inline SVG header with simple SMIL animation -->
+<header>
+  <svg width="100%" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0" y="0" width="800" height="120" rx="10" fill="#111" />
+    <text x="40" y="70" font-size="36" fill="#fff" font-family="Arial">CoderArmy9 — Lectures 1-6</text>
+    <!-- pulsing dot (no JS) -->
+    <circle cx="760" cy="60" r="8" fill="#ff0">
+      <animate attributeName="r" from="6" to="12" dur="1s" repeatCount="indefinite" />
+    </circle>
+  </svg>
+</header>
+<article>
+  <h2>Lecture 1 — HTML Basics</h2>
+  <details>
+    <summary>Key Concepts</summary>
+    <ul>
+      <li>Semantic tags: &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;</li>
+      <li>Forms &amp; input types</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>Quick Quiz: Which tag wraps main content?</summary>
+    <p>Answer: <strong>&lt;main&gt;</strong></p>
+  </details>
+</article>
+
+
+<section>
+  <h3>Example: Simple form</h3>
+  <pre><code>&lt;form&gt;
+  &lt;input type="text" name="name"&gt;
+  &lt;input type="submit"&gt;
+&lt;/form&gt;</code></pre>
+
+  <!-- live preview without external JS: srcdoc embeds HTML -->
+  <iframe srcdoc="&lt;form&gt;&lt;input type='text' placeholder='Name' /&gt;&lt;input type='submit' value='Send' /&gt;&lt;/form&gt;"
+          width="320" height="70" title="live example"></iframe>
+</section>
+<p>Course progress (Lecture 3 of 6)</p>
+<progress value="3" max="6">3/6</progress>
+<video controls width="480">
+  <source src="lecture1.mp4" type="video/mp4">
+  Your browser does not support video.
+</video>
+<a href="lecture1-cheatsheet.pdf" download="Lecture1-cheatsheet">Download cheat-sheet (PDF)</a>
+
+</body>
+</html>
