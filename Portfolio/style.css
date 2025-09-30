@@ -10,6 +10,7 @@ body{
     color: #a0a0a0;
     line-height: 1.6;
 }
+
 .main-container{
     display: grid;
     max-width: 1200px;
@@ -172,3 +173,4 @@ nav a{
     width: 48px;
     height: 48px;
 }
+
