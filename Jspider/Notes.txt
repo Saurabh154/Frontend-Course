@@ -1,3 +1,5 @@
+CSS Specificity
+
 DESCENDENT SELECTOR
 By using descendent selector, we can apply css style for direct chain as well as indirect chains to the parent element.
 => Descendent selector is represent with space.
@@ -5,15 +7,28 @@ By using descendent selector, we can apply css style for direct chain as well as
 
 Display Properties
 -----------------------
+
 display: inline
+------------------
 
 Display inline Property is use to convert block level element to inline element but height and width will not applicable.
 
 display: inline-block
+-----------------------
 
 Display inline-block Property is use it to convert block level element to inline element alongwith height and width Properties.
 
 
 display: block
+-----------------------
 
 display block Property is use it to convert inline element to block element. WE can use height and width Properties in display-block
+
+
+display: none
+---------------
+Hide the element and space also
+
+visibility: hidden; 
+--------------------
+Hide the element but same will remain.
