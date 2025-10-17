@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: rgb(247, 244, 244);
+        }
+
+        nav{
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 16px;
+            margin-bottom: 12px;
+        }
+
+        nav>.items>h1{
+            color: blue;
+            font-family: cursive;
+        }
+        nav>.items>span>span{
+            color: orangered;
+            font-style: italic;
+        }
+        nav>.items>span{
+            font-style: italic;
+        }
+
+        nav>.item2>div
+        {
+            background-color: rgb(220, 220, 233);
+            padding: 0px 20px;
+            border-radius: 10px;
+        }
+        nav>.item2>div>input{
+            width: 400px;
+            border: none;
+            font-size: 18px;
+            outline: none;
+            padding: 20px;
+            background: transparent;  
+        }
+        nav>.item3>button{
+            font-size: 20px;
+            border: none;
+            background-color: white;
+        }
+        nav>.items>a{
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+        }
+
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: white;
+            width: 95%;
+            margin: auto;
+        }
+
+        .container>.items>div{
+            width: 100px;
+            height: 100px;
+            background-color: burlywood;            
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="items item1">
+            <h1>FlipKart</h1>
+            <span>Explores <span>plus</span></span>
+        </div>
+        <div class="items item2">
+            <div>
+                <i class="bi bi-search"></i>
+                <input type="text" placeholder="search for products, brands & more">
+            </div>
+        </div>
+        <div class="items item3">
+            <button><i class="bi bi-person-circle"></i> Login <i class="bi bi-chevron-down"></i></button>
+        </div>
+        <div class="items item4">
+            <a href="#">Cart</a>
+        </div>
+        <div class="items item5">
+            <a href="#">Become a seller</a>
+        </div>
+        <div class="items item6">
+            <a href=""><i class="bi bi-three-dots-vertical"></i></a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="items">
+            <div></div>
+            <span>div</span>
+        </div>
+        <div class="items">
+            <div></div>
+            <span>div</span>
+        </div>
+        <div class="items">
+            <div></div>
+            <span>div</span>
+        </div>
+        <div class="items">
+            <div></div>
+            <span>div</span>
+        </div>
+        <div class="items">
+            <div></div>
+            <span>div</span>
+        </div>
+    </div>
+</body>
+</html>

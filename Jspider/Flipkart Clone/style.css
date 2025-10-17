@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.item1 h1{
+    color: blue;
+    font-family: cursive;
+
+}
+.item1 span{
+    font-size: 20px;
+    color: darkgrey;
+}
+
+.item1 span span{
+    color: orangered;
+}
+
+.item2{
+    padding: 3px 40px;
+   
+}
+
+input{
+    font-size: 18px;
+    outline: none;
+    border: none;
+        
+}
