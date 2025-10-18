@@ -7,8 +7,8 @@
     <style>        
         *{
             margin: 0px;
-            padding: 0px;
-            box-sizing: border-box;
+            /* padding: 0px; */
+            /* box-sizing: border-box; */
         }
 
         body{
@@ -74,12 +74,42 @@
             display: flex;
             justify-content: space-evenly;
             background-color: white;
-            
-            margin-top: 30px;
             width: 95%;
             box-shadow: 0px 0px 20px black;
             margin: auto;
+            margin-top: 30px;
         }
+
+        /* wasing machine completed */
+
+        .container1{
+            margin: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            row-gap: 20px ;
+    
+        }
+        .container1>.items{
+            width: 300px;
+            text-align: center;
+            /* border: 2px solid black; */
+            background-color: white;
+            border-radius: 20px;
+        }
+        .container1>.items>img{
+            width: inherit;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+        .container1>.items>h2{
+            font-size: 32px;
+            color: black;
+        }
+
+        /* section completed */
     </style>
 </head>
 <body>
@@ -106,7 +136,7 @@
             <a href=""><i class="bi bi-three-dots-vertical"></i></a>
         </div>
     </nav>
-    <!-- <div class="container">
+    <div class="container">
         <div class="items">
             <img src="https://whirlpoolindia.vtexassets.com/arquivos/ids/164350-800-auto?v=638731268849000000&width=800&height=auto&aspect=true" alt="">
            <h3>Washing machine</h3>
@@ -137,6 +167,59 @@
             <img src="https://whirlpoolindia.vtexassets.com/arquivos/ids/164350-800-auto?v=638731268849000000&width=800&height=auto&aspect=true" alt="">
            <h3>Washing machine</h3>
         </div>
-    </div> -->
+    </div>
+
+    <div class="container1">
+        <div class="items">
+            <img src="./images/lipstick.jpeg" alt="">
+            <h2>Lipstick</h2><br>
+            <span style="text-decoration: line-through; ">900/</span> <span style="color: green;">30% offer</span>
+            <h3 style="font-size: 22px;"><i class="bi bi-currency-rupee"></i> 649/-</h3>
+        </div>
+        <div class="items">
+            <img src="./images/garnier.jpeg" alt="">
+            <h2>Garnier</h2><br>
+            <span style="text-decoration: line-through; ">400/</span> <span style="color: green;">30% offer</span>
+            <h3 style="font-size: 22px;"><i class="bi bi-currency-rupee"></i> 249/-</h3>
+        </div>
+        <div class="items">
+            <img src="./images/ponds.jpeg" alt="">
+            <h2>Ponds</h2><br>
+            <span style="text-decoration: line-through; ">300/</span> <span style="color: green;">30% offer</span>
+            <h3 style="font-size: 22px;"><i class="bi bi-currency-rupee"></i> 149/-</h3>
+        </div>
+        <div class="items">
+            <img src="./images/shampoo.jpeg" alt="">
+            <h2>Shampoo</h2><br>
+            <span style="text-decoration: line-through; ">200/</span> <span style="color: green;">30% offer</span>
+            <h3 style="font-size: 22px;"><i class="bi bi-currency-rupee"></i> 149/-</h3>
+        </div>
+        
+        <div class="items">
+            <img src="./images/lipstick.jpeg" alt="">
+            <h2>Lipstick</h2><br>
+            <span style="text-decoration: line-through; ">900/</span> <span style="color: green;">30% offer</span>
+            <h3 style="font-size: 22px;"><i class="bi bi-currency-rupee"></i> 649/-</h3>
+        </div>
+        <div class="items">
+            <img src="./images/garnier.jpeg" alt="">
+            <h2>Garnier</h2><br>
+            <span style="text-decoration: line-through; ">400/</span> <span style="color: green;">30% offer</span>
+            <h3 style="font-size: 22px;"><i class="bi bi-currency-rupee"></i> 249/-</h3>
+        </div>
+        <div class="items">
+            <img src="./images/ponds.jpeg" alt="">
+            <h2>Ponds</h2><br>
+            <span style="text-decoration: line-through; ">300/</span> <span style="color: green;">30% offer</span>
+            <h3 style="font-size: 22px;"><i class="bi bi-currency-rupee"></i> 149/-</h3>
+        </div>
+        <div class="items">
+            <img src="./images/shampoo.jpeg" alt="">
+            <h2>Shampoo</h2><br>
+            <span style="text-decoration: line-through; ">200/</span> <span style="color: green;">30% offer</span>
+            <h3 style="font-size: 22px;"><i class="bi bi-currency-rupee"></i> 149/-</h3>
+        </div>
+        
+    </div>
 </body>
 </html>
