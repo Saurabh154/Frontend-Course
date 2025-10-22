@@ -3,7 +3,6 @@
 :root{
     --text-color: #FFFEFF;
 }
-
 *{
     margin: 0px;
     padding: 0px;
@@ -96,6 +95,10 @@ h2 span{
     color: var(--text-color);
     margin-bottom: 20px;
     font-size: 1.3rem;
+}
+.icon{
+    text-align: center;
+    padding: 5px;
 }
 
 .name h1 , span{
