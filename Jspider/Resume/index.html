@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" method="get">
+            <!-- <h1 class="main_heading">Payment Form</h1> -->
+            <fieldset>
+                <legend>User Information</legend>
+                <p>Saurabh Kumar Vishwakarma</p>
+            <a href="#"><i class="bi bi-envelope"></i> &nbsp;kumarsaurabh8286@gmail.com</a>
+            
+            <a href="#"><i class="bi bi-telephone"></i>&nbsp;9798458286</a>
+
+            <a href="#"><i class="bi bi-github"></i>&nbsp;github.com/Saurabh154</a>
+
+            <a href="#"><i class="bi bi-linkedin"></i>&nbsp;linkedin.com/in/saurabh4597 </a>
+
+            </fieldset>
+            
+            <fieldset>
+                <legend>Career Objective</legend>
+                   <p>
+                    Enthusiastic Computer Science Engineer skilled in Java, C++and JavaScript with a strong foundation in Software Development Life Cycle (SDLC). Eager to contribute technical and problem-solving abilities in a dynamic environment while continuously learning and adapting to new challenges. 
+                   </p>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Education</legend>
+                <div class="line"></div>
+                <div class="edtech">
+                    <div class="edfirst">
+                        <div class="year">2025-2026</div>
+                        <h3 class="degree">Java Full Stack Student</h3>
+                        <p class="college">JSpider, Marathahalli, Bangalore</p>
+                        <div class="goal"></div>
+                    </div>
+                    <div class="edsecond">
+                        <div class="year">2021-2025</div>
+                        <h3 class="degree">Bachelor's of Technology in CSE</h3>
+                        <p class="college">Sagar Group Of Institution</p>
+                        <div class="goal"></div>
+                    </div>
+                    <div class="edthird">
+                        <div class="year">2019-2021</div>
+                        <h3 class="degree">10th - 12th</h3>
+                        <p class="college">Adarsh +2 Uchcha Vidyalaya</p>
+                        <div class="goal"></div>
+                    </div>
+
+                    <div class="liner"></div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Technical Skills</legend>
+                <div class="skill">
+               <div class="line"></div>
+               
+               <div class="grid-container">
+                    <div class="item">
+                        <img src="./icons/html5.svg" alt="">
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="item">
+                        <img src="./icons/css.svg" alt="">
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="item">
+                        <img src="./icons/tailwindcss.svg" alt="">
+                        <h3>Tailwind CSS</h3>
+                    </div>
+                    <div class="item">
+                        <img src="./icons/javascript.svg" alt="">
+                        <h3>Javascript</h3>
+                    </div>
+                    <div class="item">
+                        <img src="./icons/react.svg" alt="">
+                        <h3>React JS</h3>
+                    </div>
+                    <div class="item">
+                        <img src="./icons/cplusplus.svg" alt="">
+                        <h3>C++</h3>
+                    </div>
+                    <div class="item">
+                        <img src="./icons/springboot.svg" alt="">
+                        <h3>Spring Boot</h3>
+                    </div>
+                    <div class="item">
+                        <img src="./icons/github.svg" alt="">
+                        <h3>Github</h3>
+                    </div>
+               </div>
+            </div>
+            </fieldset>
+            <p>Address: <textarea name="address" id="address"></textarea></p>
+            <p>Email: <input type="email" name="email" id="email" required></p>
+            <p>Pincode: <input type="number" name="pincode" id="pincode"></p>
+            <h2>Payment Information</h2>
+            <p>Card Type:
+                <select name="card_type" id="card_type">
+                    <option value="">--Select a Card Type--</option>
+                    <option value="visa">Visa</option>
+                    <option value="rupay">Rupay</option>
+                    <option value="mastercard">MasterCard</option>
+                </select>
+            </p>
+
+            <p>
+                Card Number <input type="number" name="card_number" id="card_number" required>
+            </p>
+
+            <p>
+                Expiration Date: <input type="date" id="exp_date" name="exp_date" required>
+            </p>
+            <p>
+                CVV <input type="password" name="cvv" id="cvv" required>
+            </p>
+            <input type="submit" value="Pay Now">
+
+        
+        </form>
+    </div>
+</body>
+</html>

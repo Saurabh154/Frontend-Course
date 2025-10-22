@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Student Details</legend>
+            <p>Name: <input type="text" name="name" placeholder="Enter Your Name"></p>
+            <p>Course : <input type="text" name="course" placeholder="Java full stack"></p>
+            <p>Date Of Birth: <input type="date" name="date"></p>
+            <p>Aadhar Number: <input type="text" name="aadhar"></p>
+
+            <p>Gender: <input type="radio" name="gender"> Male  <input type="radio" name="gender"> Female</p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+            <p>Home Address: <textarea name="address"></textarea></p>
+            <p>City : <input type="text" name="city" placeholder="Enter Your City"></p>
+            <p>State: <input type="text" name="state" placeholder="Enter Your State"></p>
+            <p>Pin Code: <input type="text" name="pincode" placeholder="Enter PinCode"></p>
+            <p>Phone Number: <input type="text" name="phnumber" placeholder="Enter Your Phone Number"></p>
+            <p>Email Id: <input type="email" name="email" placeholder="Enter Your Email"></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Parent/Guardian Information</legend>
+            <p>Name: <input type="text" name="name"></p>
+            <p>Occupation: <input type="text" name="occupation"></p>
+            <p>Phone Number: <input type="text" name="phnumber"></p>
+            <p>Email Id: <input type="email" name="email"></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Education</legend>
+            <p>Institute Name: 
+                <select name="institute">
+                    <option value="Jspider">JSpider</option>
+                    <option value="Jspider">Pyspider</option>
+                    <option value="Jspider">QSpider</option>
+                </select>
+            </p>
+            <p>Course Name: 
+                <select name="course">
+                    <option value="Java-full-stack">Java Full Stack</option>
+                    <option value="Python Full Stack">Python Full Stack</option>
+                    <option value="MERN Stack Developer">MERN Stack Developer</option>
+                    <option value="DevOpps">DevOpps</option>
+                    <option value="SQL">SQL</option>
+                    <option value="React Js Developer">React Js Developer</option>
+                </select>
+            </p>
+            <p>College Name: <input type="text" placeholder="Enter Your College "></p>
+            <p>Highest Degree:
+                <select name="degree"  id="degree">
+                    <option value="">--Highest Degree--</option>
+                    <option value="bsc">BSc</option>
+                    <option value="rupay">BCom</option>
+                    <option value="be/btech">BE/BTech</option>
+                    <option value="BA">BA</option>
+                </select>
+            </p>
+            <p>Course: 
+                <select name="course">
+                    <option value="">--Course Name--</option>
+                    <option value="CSE">CSE</option>
+                    <option value="ME">ME</option>
+                    <option value="ECE">ECE</option>
+                    <option value="AIML">AIML</option>
+                    <option value="math">Math</option>
+                    <option value="physics">Physcis</option>
+                </select>
+            </p>
+            <p>CGPA: <input type="text" placeholder="8.12/10"></p>
+            <p>Year Of Passout: <input type="text"></p>
+           
+        </fieldset>
+        <input type="submit" value="Submit Now">
+    </form>
+</body>
+</html>

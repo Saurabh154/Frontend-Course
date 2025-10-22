@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+fieldset legend{
+    background-color: #fff;
+    border:1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+}
+
+fieldset a, p{
+    text-decoration: none;
+    /* text-align: center; */
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px; 
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.education p{
+    text-align: right;
+}
+
+.main_heading{
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: #4daea1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover{
+    background-color: #4caf84;
+}
+
+/* Education */
+
+.edtech {
+    position: relative;
+}
+
+.year {
+    margin-top: 2px;
+    font-size: 0.9rem;
+    color: #a0a0a0;
+    margin-bottom: 5px;
+}
+
+.degree {
+    color: #403a3a;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.college {
+    font-style: italic;
+    color: #8c8383;
+    /* margin-bottom: 10px; */
+    padding-left: 2px;
+    /* font-size: 16px; */
+}
+
+
+.edfirst,
+.edsecond,
+.edthird {
+    margin-bottom: 20px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.goal {
+    height: 15px;
+    width: 15px;
+    border: 3px solid #343331;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    z-index: 5;
+    background-color: black;
+}
+
+.liner {
+    position: absolute;
+    width: 2px;
+    top: 2px;
+    bottom: 0px;
+    left: 5px;
+    border: 2px solid #3a3a3a;
+    margin-left: 7px;
+}
+
+/* Technical-Skills */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px 10px;
+}
+
+.item {
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #3a3a3a;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #1e1e1e;
+    transition: transform 0.3s ease, boxshadow 0.3s ease;
+}
+
+.item img {
+    width: 48px;
+    height: 48px;
+    filter: invert(75%) sepia(50%) saturate(1000%) hue-rotate(350deg) brightness(110%) contrast(101%);
+    margin-bottom: 15px;
+
+}
+
+.item h3 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.item:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}

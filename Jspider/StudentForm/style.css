@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    padding: 18px;
+}
+form{
+    margin: auto;
+    width: 50%;
+    border: 1px solid salmon;
+    padding: 20px;
+    border-radius: 6px;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* margin: 10px; */
+    margin-top:5px;
+}
+fieldset{
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+fieldset legend {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 6px;
+   
+}
+
+fieldset p {
+    color: black;
+    padding: 10px 10px;
+    font-size: 14px;
+    line-height: 17px;
+    gap: 10px;
+}
+
+
+input[type="submit"] {
+    background-color: #4daea1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #4caf84;
+}
