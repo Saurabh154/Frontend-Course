@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ff4f8b, #ff6a00);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-box {
+    background: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    /* text-align: center; */
+    /* position: relative; */
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #333;
+    position: relative;
+}
+.liner{
+    width: 26px;
+    height: 4px;
+    background: linear-gradient(135deg, #f73f7c, #ff1e00);
+    border-radius: 5px;
+    position: absolute;
+    top: 30px;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 3px solid #c83465;
+    font-size: 16px;
+}
+
+.continue-btn {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(120deg, #ef4b82, #e74d39);;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.separator {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #888;
+    text-align: center;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.twitter-btn,
+.facebook-btn {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    /* text-align: left; */
+}
+
+.twitter-btn {
+    background-color: #1DA1F2;
+}
+
+.facebook-btn {
+    background-color: #3b5998;
+}
+
+.icon{
+    font-size: 16px;
+}

@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 3668.4443716769647,
-			"y": 14088.922074891667,
-			"lastActivityTimestamp": 1761191973451,
+			"x": 2719.4622736323918,
+			"y": 13959.44367993857,
+			"lastActivityTimestamp": 1761192569377,
 			"meta": {}
 		},
 		{
@@ -60,8 +60,8 @@
 			"typeName": "binding"
 		},
 		{
-			"x": 2618.7000588927294,
-			"y": 11199.715693820734,
+			"x": 2492.3796422312303,
+			"y": 11113.396758497847,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -905,13 +905,13 @@
 							"type": "paragraph",
 							"attrs": {
 								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": "Relative"
-								}
-							]
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
 						},
 						{
 							"type": "paragraph",
@@ -921,7 +921,25 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "Sticky"
+									"text": "Relative : We make the position of the element relative, we can change the place to the other place"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Sticky: "
 								}
 							]
 						},
@@ -1192,8 +1210,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -2463.663397767915,
-			"y": -13455.740986375902,
+			"x": -2311.0262276352673,
+			"y": -13326.788894367284,
 			"z": 0.633310133977597,
 			"meta": {},
 			"id": "camera:page:page",
@@ -1237,7 +1255,7 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:v3_ucyhOXZST9HYVXAJhc",
+			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
 				"shape:v3_ucyhOXZST9HYVXAJhc"
