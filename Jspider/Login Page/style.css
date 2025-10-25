@@ -1,7 +1,9 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #ff4f8b, #ff6a00);
+    /* background: linear-gradient(135deg, #ff4f8b, #ff6a00); */
+    background: #9D0053;
+    background: linear-gradient(104deg, rgba(157, 0, 83, 1) 0%, rgba(249, 0, 129, 1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +33,9 @@ body{
 .liner{
     width: 26px;
     height: 4px;
-    background: linear-gradient(135deg, #f73f7c, #ff1e00);
+    /* background: linear-gradient(135deg, #f73f7c, #ff1e00); */
+    /* background: #9D0053; */
+    background: linear-gradient(104deg, rgba(157, 0, 83, 1) 0%, rgba(249, 0, 129, 1) 100%);
     border-radius: 5px;
     position: absolute;
     top: 30px;
@@ -49,7 +53,9 @@ body{
 .continue-btn {
     width: 100%;
     padding: 12px;
-    background: linear-gradient(120deg, #ef4b82, #e74d39);;
+    /* background: linear-gradient(120deg, #ef4b82, #e74d39); */
+    background: #9D0053;
+    background: linear-gradient(104deg, rgba(157, 0, 83, 1) 0%, rgba(249, 0, 129, 1) 100%);
     color: white;
     border: none;
     border-radius: 5px;
