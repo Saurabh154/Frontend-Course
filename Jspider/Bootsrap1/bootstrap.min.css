@@ -1,0 +1,27 @@
+.btn{
+    border: none;
+    background: none;
+    border-radius: 8px;
+    padding: 8px 10px;
+}
+.btn-danger{
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 10px;
+}
+.btn-dark{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.btn-success{
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.text-center{
+    text-align: center;
+}
